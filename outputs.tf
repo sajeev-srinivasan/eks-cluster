@@ -12,5 +12,3 @@ output "cluster_endpoint" {
   value       = aws_eks_cluster.my-cluster.endpoint
   description = "Endpoint to the the cluster"
 }
-
-
